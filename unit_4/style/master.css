@@ -1,0 +1,182 @@
+/*Master CSS*/
+
+/*FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+/*Global override*/
+
+*{
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+body{
+  color: #333;
+  background-color: #333;
+}
+
+/*Font Control*/
+body{
+  font-size: 1em;
+  font-family:"Open Sans", Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5, .logo{
+  font-family:'Lato',Helvetica,"Arial Black", sans-serif;
+}
+
+h1, .logo{
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h2{
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
+
+h3{
+  font-size: 1.4em;
+  line-height: 1.4em;
+  padding-top: .5em;
+}
+
+p{
+  line-height: 1.6em;
+  padding-top: 1em;
+  width: 30em;
+}
+
+label{
+  font-size: 1em;
+}
+
+.cta, input[type=submit]{
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/*Design*/
+
+header, main, footer{
+  padding-left: 1em;
+}
+
+  /*Header*/
+  header{
+    background: #333;
+    color: #fff;
+    display: block;
+  }
+  .logo, nav{
+    display: inline-block;
+    width: 49%;
+    padding-top: 0;
+  }
+
+  nav{
+    text-align: right;
+  }
+  nav a{
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+    color: inherit;
+    padding: 0.5em;
+    margin: 1em;
+  }
+
+  nav a:hover{
+    border-bottom: 1px solid #ccc;
+  }
+
+  /*Main*/
+
+  main{
+    background-color: #ccc;
+    padding-top: 1em;
+  }
+
+  img{
+    /*For testing placeholders*/
+    border: 2px solid #333;
+  }
+
+  h2{
+    background-color: #333;
+    color: #fff;
+    padding: .5em 0;
+    margin-left: -1em;
+    padding-left: 1em;
+  }
+
+  h3{
+    padding-top: .5em;
+  }
+
+  p{
+    padding-top: 1em;
+    width: 30em;
+  }
+
+  form{
+    padding: 1em;
+  }
+
+  label{
+    display: inline-block;
+    width: 5em;
+    font-size: 1em;
+  }
+  label, input, textarea{
+    margin-bottom: 1em;
+  }
+  input, textarea{
+    padding: .1em;
+    width: 30em;
+  }
+
+  input{
+    height: 1.7em;
+  }
+  textarea{
+    vertical-align: top;
+  }
+
+  input[type=submit]{
+    border:none;
+    height: inherit;
+    width: 18.7em;
+    margin-left: 5em;
+  }
+
+  #intro, #examples, #about{
+    margin-bottom: 1em;
+  }
+  #examples section, #about section{
+    margin-top: 1em;
+  }
+
+  .cta, input[type=submit]{
+    margin-top: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #4A90E2;
+    color: #fff;
+    padding: .6em;
+    display: inline-block;
+    border-radius: 10px;
+    text-shadow: 1px 2px #333;
+    font-size: 1.1em;
+  }
+
+  /*Footer*/
+  footer p{
+    background: #333;
+    color: #fff;
+    width: 100%;
+    padding: 1em 0;
+    margin-left: -1em;
+    padding-left: 1em;;
+  }
