@@ -1,0 +1,260 @@
+/*Master CSS*/
+
+/*FONT IMPORT*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+/*Global override*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Font Control*/
+
+body {
+  color: #333;
+  background-color: #ccc;
+  font-size: 1em;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 .logo {
+  font-family: 'Lato', Helvetica, "Arial Black", sans-serif;
+  font-weight: 300;
+}
+
+h1, .logo {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  padding-top: .5em;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+label {
+  font-size: 1em;
+}
+
+a {
+  color: inherit;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/*END OF FONT CONTROL*/
+
+/*General*/
+
+.wrapper, #examples section, #about div:nth-child(2), section h2, #contact div:nth-child(2), footer p {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.cta, input[type=submit] {
+  margin-top: 1em;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: #4A90E2;
+  color: #fff;
+  padding: .6em;
+  display: inline-block;
+  border-radius: 10px;
+  text-shadow: 1px 2px rgba(0,0,0,0.5);
+  font-size: 1.1em;
+}
+
+.headerbar {
+  width: 100%;
+  background-color: #333;
+}
+
+/*End of General*/
+
+/*HEADER*/
+
+header {
+  padding: 16px 0;
+  background-color: #333;
+  color: #fff;
+}
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  align-items: baseline;
+}
+
+.logo, nav{flex-grow:6;}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+}
+
+nav a {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #aaa;
+  color: #333;
+}
+
+/*END OF HEADER*/
+
+/*MAIN*/
+
+/*MAIN GENERAL*/
+
+main {
+  background-color: #fff;
+}
+
+h2 {
+  background-color: #333;
+  color: #fff;
+  padding: 16px 32px;
+}
+
+#intro, #examples section, #about > div:nth-child(2), #contact div:nth-child(2){
+  padding: 32px;
+}
+/*END OF MAIN GENERAL*/
+
+/*INTRO*/
+
+#intro, #examples section, #about > div:nth-child(2) {
+  background-color: #fff;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro img, #examples section img, #about div:nth-child(2) img{
+  flex-basis: 35%;
+}
+
+#intro div, #examples section div, #about div:nth-child(2) div{
+  flex-basis: 60%;
+  margin-left: 5%;
+}
+
+
+/*END OF INTRO*/
+
+/*EXAMPLES*/
+
+#examples section {
+  border-bottom: 2px solid #333;
+}
+
+#examples section:last-child {
+  border-bottom: none;
+}
+
+/*END OF EXAMPLES*/
+  #examples section{
+    background-color: #eee;
+  }
+
+  #examples section:nth-child(odd){
+    background-color: #ddd;
+  }
+
+/*ABOUT*/
+
+/*END OF ABOUT*/
+
+/*CONTACT*/
+
+/*FORM*/
+
+form {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 5em;
+  font-size: 1em;
+}
+
+label, input, textarea {
+  margin-bottom: 1em;
+}
+
+input, textarea {
+  padding: .1em;
+  width: 30em;
+}
+
+input {
+  height: 1.7em;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+input[type=submit] {
+  border: none;
+  height: inherit;
+  width: 18.7em;
+  margin-left: 5em;
+}
+
+/*FORM*/
+
+/*END OF CONTACT*/
+
+/*FOOTER*/
+
+footer p {
+  color: #fff;
+  padding: 16px 32px;
+}
+
+/*END OF FOOTER*/
+
+/*Style for this weeks project*/
+
+/*header, nav, footer, div, section {
+  border: 1px black solid;
+  padding: 20px;
+}
+
+header{
+  background-color: #ffed74;
+}
+nav {
+  background-color: #e8c66a;
+}
+footer{
+  background-color: #ff957E;
+}
+div, section{
+  background-color: #ffe2b8;
+}*/
+
+/*End of style for this weeks project*/

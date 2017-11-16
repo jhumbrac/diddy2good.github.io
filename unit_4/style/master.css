@@ -60,7 +60,7 @@ label{
 /*Design*/
 
 header, main, footer{
-  padding-left: 1em;
+  /*padding-left: 1em;*/
 }
 
   /*Header*/
@@ -93,10 +93,16 @@ header, main, footer{
 
   /*Main*/
 
+
+
   main{
     background-color: #ccc;
-    padding-top: 1em;
+
   }
+  #intro, #examples section, #about section, #contact section{
+    padding: 1em;
+  }
+
 
   img{
     /*For testing placeholders*/
@@ -107,7 +113,6 @@ header, main, footer{
     background-color: #333;
     color: #fff;
     padding: .5em 0;
-    margin-left: -1em;
     padding-left: 1em;
   }
 
@@ -151,12 +156,6 @@ header, main, footer{
     margin-left: 5em;
   }
 
-  #intro, #examples, #about{
-    margin-bottom: 1em;
-  }
-  #examples section, #about section{
-    margin-top: 1em;
-  }
 
   .cta, input[type=submit]{
     margin-top: 1em;
