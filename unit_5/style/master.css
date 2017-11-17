@@ -15,8 +15,8 @@
 
 body {
   color: #333;
-  background-color: #ccc;
-  font-size: 1em;
+  background-color: #333;
+  font-size: 1.1em;
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
 }
@@ -93,7 +93,7 @@ img {
 
 header {
   padding: 16px 0;
-  background-color: #333;
+  background-color: inherit;
   color: #fff;
 }
 header .wrapper{
@@ -111,7 +111,7 @@ nav{
 }
 
 nav a {
-  padding: 10px;
+  padding: 5px;
   width: 100%;
   text-align: center;
 }
@@ -137,15 +137,14 @@ h2 {
   padding: 16px 32px;
 }
 
-#intro, #examples section, #about > div:nth-child(2), #contact div:nth-child(2){
+#examples section, #about > div:nth-child(2), #contact div:nth-child(2){
   padding: 32px;
 }
 /*END OF MAIN GENERAL*/
 
 /*INTRO*/
 
-#intro, #examples section, #about > div:nth-child(2) {
-  background-color: #fff;
+#intro > div, #examples section, #about > div:nth-child(2) {
   padding: 32px;
   display: flex;
   justify-content: space-between;
@@ -155,9 +154,23 @@ h2 {
   flex-basis: 35%;
 }
 
-#intro div, #examples section div, #about div:nth-child(2) div{
+#intro div div, #examples section div, #about div:nth-child(2) div{
   flex-basis: 60%;
   margin-left: 5%;
+}
+
+#intro{
+  background-image: url("../images/patrick-tomasso-151382.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#intro img{
+  border-radius: 100%;
+  border: 5px solid #fff;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  height: 100%;
 }
 
 
