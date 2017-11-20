@@ -97,6 +97,10 @@ ul{
   padding-left: 40px;
 }
 
+#examples .hide{
+  display: none;
+}
+
 /*End of General*/
 
 /*HEADER*/
@@ -147,7 +151,7 @@ h2 {
   padding: 16px 32px;
 }
 
-section, #about > div:nth-child(2), #contact div:nth-child(2){
+#about > div:nth-child(2), #contact div:nth-child(2), {
   padding: 32px;
 }
 
@@ -158,17 +162,17 @@ section, #about > div:nth-child(2), #contact div:nth-child(2){
 
 /*INTRO*/
 
-#intro > div, #examples section, #about > div:nth-child(2) {
+#intro > div, #examples section {
   padding: 32px;
   display: flex;
   justify-content: space-between;
 }
 
-#intro img, #examples section img, #about div:nth-child(2) img{
+#intro img, #examples section img{
   flex-basis: 35%;
 }
 
-#intro div div, #examples section div, #about div:nth-child(2) div{
+#intro div div, #examples section div{
   flex-basis: 60%;
   margin-left: 5%;
 }
@@ -209,11 +213,43 @@ section, #about > div:nth-child(2), #contact div:nth-child(2){
     background-color: #ddd;
   }
 
+  #examples section{
+    display: flex;
+  }
+  #examples section img{
+    width: 30%;
+    height: 30%;
+  }
+  #examples section div{
+    width: 60%;
+    margin-left: 5%;
+  }
+
 /*ABOUT*/
+#about{
+  padding-bottom: 20px;
+}
+
+#about img{
+  padding-bottom: 25px;
+}
+
+#about .wrapper div{
+  padding: 32px;
+}
 
 /*END OF ABOUT*/
 
 /*CONTACT*/
+
+#contact div:nth-child(2){
+  padding: 32px;
+}
+
+.or-modify{
+  font-size:2em;
+  padding: 16px 0;
+}
 
 /*FORM*/
 
@@ -265,18 +301,64 @@ footer p {
 /*END OF FOOTER*/
 
 /*Work Example pages*/
-.work-example h3, .work-example p, .work-example h4{
-  width: 650px;
+.work-example{
+  width: 800px;
   margin: 0 auto;
-  padding-top: 15px;
-}
-.work-example section{
-  padding-bottom: 0;
 }
 
-.work-example{
+.work-example div{
   padding-bottom: 40px;
 }
+
+.work-example h2{
+  color: #333;
+  background-color: inherit;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+.work-example h3{
+  padding-top: 32px;
+  font-weight: bold;
+}
+
+.work-example h4::before{
+  content: "- "
+}
+.work-example h4{
+  padding-top: 0;
+  padding-bottom:20px;
+}
+
+.work-example p{
+  padding-bottom: 25px;
+  padding-left: 32px;
+}
+p.list-header{
+  padding-bottom: 0;
+}
+.work-example ul{
+  padding-left: 64px;
+  padding-bottom: 25px;
+}
+}
+
+.fake-url{
+  color: blue;
+}
+
+figcaption{
+  font-size: .8em;
+
+  padding: 3px 5px 8px 5px;
+}
+
+figure{
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #ddd;
+}
+
 /*END OF WORK EXAMPLES*/
 
 

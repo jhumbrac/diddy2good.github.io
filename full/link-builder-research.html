@@ -13,44 +13,77 @@
       <p class="logo">Daniel Monroe Design</p>
       <nav>
         <a href="index.html">Home</a>
-        <a href="index.html#examples">Work Examples</a>
+        <a href="index.html#examples">Work</a>
         <a href="index.html#about">About</a>
         <a href="index.html#contact">Contact</a>
       </nav>
     </div>
   </header>
   <main>
-    <div class="wrapper work-example">
-      <section>
-        <h3>Project</h3>
-        <p>Link Builder Research</p>
+    <section class="wrapper work-example">
+      <div>
+        <h1>Project: Link Builder</h1>
+        <h2>Employer: Big Fish Games</h2>
+      </div>
+      <p>Due to NDA compliance, key information regarding Big Fish Games will be omitted.</p>
 
-        <h4>Employer</h4>
-        <p>Big Fish Games</p>
-      </section>
-      <section>
-        <h3>Intro</h3>
-        <p>Due to NDA I will not be providing specifics to the project.</P>
-        <p>A solution that allows marketers to build a wide array of links through from a third-party service. This tool allows you to define multiple properties within the url.</p>
-      </section>
-      <section>
-        <h3>My Role</h3>
-        <p>As a UX Designer, my role was to interview the users, research the capabilities and limitations of the third-party service, and design wireframes and high-fidelity mockups for engineers.</p>
-      </section>
-      <section>
-        <h3>The Process</h3>
-        <p>asdf</p>
-      </section>
-      <section>
-        <h3>The Results</h3>
-        <p>asdf</p>
-      </section>
-      <section>
-        <h3>The Conclusion</h3>
-        <p>asdf</p>
-      </section>
+      <p>Imagine a tool that could take a set of information and apply it in a URL, then create additional URLs with combinations of the data. This type of thought could save marketers time when creating tracking links for their digital marketing campaigns.</p>
 
-    </div>
+      <p>This idea was pitched to a Product Manager that I worked with. After receiving buyoff from leadership, the project was handed off to me.</p>
+
+      <h3>The Process</h3>
+
+      <h4>Interview</h4>
+
+          <p>My first order of business is talk with the marketers and understand how they create their marketing URLs. Now imagine taking an existing URL that looks something like this:</p>
+          <p><span class="fake-url">http://www.google.com/&sample-data=123&sample-name=2342</span></p>
+          <p>And going through and replacing the numerical values with something different. That’s exactly what the users were doing. This identified a red flag for me because it opens the door for user error. The next red flag was that everything was done through an excel document. Oh Boy! The last red flag was that when a marketer needed to create a links, they would need to create at least 8+ links. Sometimes with the smallest of changes. This showed me how tedious this task is. </p>
+
+          <p>After I watching how the links were made, I asked where do these links originate from? Or how do you know they’ll work? That’s when I learned that they were using a third-party service to create their links. Not only could you create the links on this services website, that process was even worse for bulk links the marketers were looking to do. </p>
+
+        <p>After poking around the third-party tool, the marketers were able to share with me what process is always required and when they can take this process offline to their excel sheet. During this process, I was able to identify what information is required for each url. </p>
+
+          <h4>Hypothesis creation</h4>
+
+      <p>With the information I have, I took the url requirements and any possible variations and started to sketch out some ideas. Once I what I thought would be all the variations, I would verify with marketers just to see if they could poke any holes
+        in my logic. </p>
+
+      <h4>Wireframing/paper prototyping</h4>
+
+      <p>Once I had an idea ready to go, next step was to work in Sketch. </p>
+      <p>Disclaimer: For our internal tools, we use a common web framework, so the visuals are very predictable. This means our wireframes will appear at a higher fidelity and take minimal time to put together.</p>
+
+      <figure>
+        <img src="images/link-builder-notes.jpg" alt="Link Builder notes taken from meeting">
+        <figcaption>Quick picture of my notes I jotted down in the first meeting. Ideating some ideas of what the form could look like.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/link-builder-form_1.5.jpg" alt="First iteration of Link Builder form">
+        <figcaption>An early concept of the Link Builder form</figcaption>
+      </figure>
+      <figure>
+        <img src="images/link-builder-form_2.0.jpg" alt="Iteration befroe paper prototyping.">
+        <figcaption>Status of the Link Builder form before performing paper prototyping</figcaption>
+      </figure>
+      <figure>
+        <img src="images/link-builder-form_2.9.jpg" alt="The most current version of Link Builder">
+        <figcaption>The most current version of Link Builder. Sensitive information has been blurred out.</figcaption>
+      </figure>
+
+      <h4>What I learned</h4>
+      <p>The paper prototype sessions provided some great takeaways.</p>
+      <p>The tool we created did add some new complexities to the process, and in doing so, the language used within the forms wasn’t received as well by all paper prototype participants. Another takeaway came in the form of feature requests, while maintaining
+        a stable MVP (minimal viable product) the new features do create a roadmap for the product.</p>
+
+      <h4>Challenges</h4>
+      <p>The main challenge of this project was taking a tedious task and all of its variations to combine them into one simple tool. While doing so, this created a technically complex tool that required specific information to be delivered to the user without
+        causing confusion.</p>
+      <p>Another challenge came in the form of feature requests. Our goal was to ship a functioning MVP while keeping future features in mind.</p>
+
+      <h4>Results</h4>
+      <p>The internal product released without any issues and became widely adopted by the internal employees. Future iterations were created of the tool to incorporate the requested features. While creating these new iterations, some of the design mechanics
+        had to adjust to allow product flexibility.</p>
+    </section>
   </main>
   <footer class="headerbar">
     <p>Daniel Monroe &copy;2017</p>
