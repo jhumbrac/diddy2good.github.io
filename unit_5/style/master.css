@@ -252,7 +252,7 @@ footer p {
 
 /*Style for this weeks project*/
 
-/*header, nav, footer, div, section {
+header, nav, footer, div, section {
   border: 1px black solid;
   padding: 20px;
 }
@@ -268,6 +268,6 @@ footer{
 }
 div, section{
   background-color: #ffe2b8;
-}*/
+}
 
 /*End of style for this weeks project*/
