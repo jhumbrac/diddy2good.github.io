@@ -53,7 +53,7 @@ label {
 a {
   color: inherit;
   font-weight: 300;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 /*END OF FONT CONTROL*/
@@ -103,17 +103,17 @@ header .wrapper{
   align-items: baseline;
 }
 
-.logo, nav{flex-grow:6;}
+.logo, nav{/* flex-grow:6; */}
 
 nav{
-  display:flex;
-  justify-content:space-between;
+  /* display:flex; */
+  /* justify-content:space-between; */
 }
 
 nav a {
-  padding: 5px;
-  width: 100%;
-  text-align: center;
+  padding: 1em;
+  display: inline-block;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -146,16 +146,13 @@ h2 {
 
 #intro > div, #examples section, #about > div:nth-child(2) {
   padding: 32px;
-  display: flex;
-  justify-content: space-between;
+}
+#intro > div {
+    height: 84vh;
+    position: relative;
 }
 
-#intro img, #examples section img, #about div:nth-child(2) img{
-  flex-basis: 35%;
-}
-
-#intro div div, #examples section div, #about div:nth-child(2) div{
-  flex-basis: 60%;
+#examples section div, #about div:nth-child(2) div{
   margin-left: 5%;
 }
 
@@ -164,7 +161,13 @@ h2 {
   background-size: cover;
   background-position: bottom center;
   color: #fff;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#intro div div {
+    position: absolute;
+    bottom: 5vh;
+    left: 1em;
+    width: 30em;
 }
 #intro img{
   border-radius: 100%;
@@ -248,26 +251,4 @@ footer p {
   padding: 16px 32px;
 }
 
-/*END OF FOOTER*/
-
-/*Style for this weeks project*/
-
-header, nav, footer, div, section {
-  border: 1px black solid;
-  padding: 20px;
-}
-
-header{
-  background-color: #ffed74;
-}
-nav {
-  background-color: #e8c66a;
-}
-footer{
-  background-color: #ff957E;
-}
-div, section{
-  background-color: #ffe2b8;
-}
-
-/*End of style for this weeks project*/
+/*END OF FOOTER */
